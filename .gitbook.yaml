@@ -1,0 +1,15 @@
+root: ./
+
+structure:
+  readme: README.md
+  summary: SUMMARY.md
+
+redirects:
+  previous/page: new-folder/page.md
+
+api:
+  method: GET
+  url: https://api.github.com/repos/aibotiyi/AIBOT-IYI-PROTOCOL
+  auth:
+    type: bearer
+    token: env.GITHUB_TOKEN
