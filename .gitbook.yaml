@@ -4,12 +4,313 @@ structure:
   readme: README.md
   summary: SUMMARY.md
 
-redirects:
-  previous/page: new-folder/page.md
+# GitBook configuration for AIBOT IYI Protocol documentation
+# This file configures the integration between GitHub repository and GitBook
 
+# Site configuration
+title: "AIBOT IYI Protocol Documentation"
+description: "Official documentation for AIBOT IYI Protocol - Intelligent Yield Investment platform combining AI-powered trading with interactive gaming experiences"
+
+# Navigation structure
+navigation:
+  - title: "Introduction"
+    path: "docs/introduction/"
+  - title: "Tokenomics"  
+    path: "docs/tokenomics/"
+  - title: "Ecosystem"
+    path: "docs/ecosystem/"
+  - title: "Investment Products"
+    path: "docs/investment-products/"
+  - title: "Roadmap"
+    path: "docs/roadmap/"
+  - title: "Technical"
+    path: "docs/technical/"
+  - title: "Community"
+    path: "docs/community/"
+
+# Redirects for legacy URLs
+redirects:
+  # Redirect old paths to new structure
+  whitepaper.md: README.md
+  tokenomics.md: docs/tokenomics/README.md
+  roadmap.md: docs/roadmap/README.md
+  
+  # Redirect common search terms
+  token: docs/tokenomics/aib-token.md
+  trading: docs/investment-products/ai-bot-trading.md
+  gaming: docs/ecosystem/gaming-platform.md
+  staking: docs/tokenomics/allocation.md
+
+# Git integration settings
+git:
+  # GitHub repository configuration
+  github:
+    owner: aibot
+    repo: AIBOT-IYI-PROTOCOL
+    branch: main
+  
+  # Auto-sync configuration
+  sync:
+    # Sync on every push to main branch
+    branch: main
+    # Include all markdown files
+    include:
+      - "**/*.md"
+      - "**/*.png" 
+      - "**/*.jpg"
+      - "**/*.svg"
+      - "**/*.gif"
+    # Exclude certain files
+    exclude:
+      - ".git/**"
+      - "node_modules/**"
+      - ".env"
+      - "*.log"
+
+# Theme and customization
+appearance:
+  theme: "default"
+  logo: "assets/logos/aibot-logo.png"
+  favicon: "assets/logos/favicon.ico"
+  
+  # Custom colors
+  colors:
+    primary: "#6366f1"    # Indigo
+    secondary: "#8b5cf6"  # Purple
+    accent: "#06b6d4"     # Cyan
+    
+  # Custom CSS
+  customCSS: |
+    .gb-header {
+      background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    }
+    
+    .gb-sidebar {
+      border-right: 1px solid #e5e7eb;
+    }
+    
+    .gb-content img {
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .gb-table {
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+# Search configuration
+search:
+  # Enable advanced search
+  enabled: true
+  # Search index configuration
+  index:
+    - title
+    - description
+    - content
+    - tags
+
+# Social and external links
+links:
+  # Website and social media
+  website: "https://aibotiyi.com"
+  twitter: "https://twitter.com/AIBOTIYI"
+  telegram: "https://t.me/aibotiyi"
+  discord: "https://discord.gg/aibotiyi"
+  github: "https://github.com/aibotiyi"
+  
+  # Documentation links
+  gitbook: "https://aibot-iyi.gitbook.io/protocol"
+  api: "https://api.aibotiyi.com"
+  
+  # Community links
+  medium: "https://medium.com/@aibotiyi"
+  youtube: "https://youtube.com/@aibotiyi"
+
+# SEO and metadata
+seo:
+  # Meta tags
+  title: "AIBOT IYI Protocol - AI-Powered DeFi Gaming Platform"
+  description: "Revolutionary AI-DeFi platform combining intelligent investment with interactive gaming. Guaranteed 12-15% monthly returns through advanced AI trading algorithms."
+  
+  # Open Graph tags
+  og:
+    title: "AIBOT IYI Protocol Documentation"
+    description: "Complete guide to AIBOT IYI Protocol - the world's first AI-DeFi gaming ecosystem"
+    image: "assets/logos/aibot-og-image.png"
+    url: "https://aibotiyi.gitbook.io/protocol"
+    
+  # Twitter Card tags  
+  twitter:
+    card: "summary_large_image"
+    site: "@AIBOTIYI"
+    title: "AIBOT IYI Protocol - Intelligent Yield Investment"
+    description: "AI-powered trading with guaranteed returns + interactive gaming experiences"
+    image: "assets/logos/aibot-twitter-card.png"
+
+# Analytics and tracking
+analytics:
+  # Google Analytics
+  googleAnalytics: "G-XXXXXXXXXX"
+  
+  # Custom tracking
+  customTracking: |
+    <!-- Custom analytics code -->
+    <script>
+      // Custom event tracking for documentation views
+      gtag('config', 'G-XXXXXXXXXX', {
+        page_title: document.title,
+        page_location: window.location.href,
+        content_group1: 'Documentation'
+      });
+    </script>
+
+# Plugin configuration
+plugins:
+  # Enable popular plugins
+  - name: "page-toc"
+    config:
+      minHeadingLevel: 2
+      maxHeadingLevel: 4
+      
+  - name: "expandable-chapters"
+    config:
+      expanded: true
+      
+  - name: "sitemap"
+    config:
+      hostname: "https://aibot-iyi.gitbook.io"
+      
+  - name: "github-buttons"
+    config:
+      repo: "your-username/AIBOT-IYI-PROTOCOL"
+      types:
+        - "star"
+        - "watch"
+        - "fork"
+
+# API configuration for external integrations
 api:
-  method: GET
-  url: https://api.github.com/repos/aibotiyi/AIBOT-IYI-PROTOCOL
-  auth:
-    type: bearer
-    token: env.GITHUB_TOKEN
+  # GitHub API for live repository data
+  github:
+    method: GET
+    url: "https://api.github.com/repos/your-username/AIBOT-IYI-PROTOCOL"
+    headers:
+      Authorization: "token ${GITHUB_TOKEN}"
+      Accept: "application/vnd.github.v3+json"
+    
+  # Custom API endpoints
+  custom:
+    # Live token price feed
+    tokenPrice:
+      url: "https://api.aibotiyi.com/v1/token/price"
+      method: GET
+      cache: 300 # 5 minutes
+      
+    # Live statistics
+    statistics:
+      url: "https://api.aibotiyi.com/v1/stats"
+      method: GET  
+      cache: 600 # 10 minutes
+
+# Content processing
+markdown:
+  # Enable GitHub Flavored Markdown
+  gfm: true
+  
+  # Enable syntax highlighting
+  highlight: true
+  
+  # Code block themes
+  highlightTheme: "github"
+  
+  # Enable math rendering
+  math: true
+  
+  # Enable mermaid diagrams
+  mermaid: true
+  
+  # Custom markdown extensions
+  extensions:
+    - "tables"
+    - "strikethrough" 
+    - "autolink"
+    - "tasklist"
+
+# Internationalization
+i18n:
+  # Default language
+  defaultLanguage: "en"
+  
+  # Available languages
+  languages:
+    - code: "en"
+      name: "English"
+      path: "/"
+    - code: "vi"  
+      name: "Tiếng Việt"
+      path: "/vi/"
+    - code: "zh"
+      name: "中文"
+      path: "/zh/"
+    - code: "ja"
+      name: "日本語"  
+      path: "/ja/"
+
+# Build configuration
+build:
+  # Output directory
+  output: "_book"
+  
+  # Include assets
+  assets:
+    - "assets/**/*"
+    - "docs/**/*.png"
+    - "docs/**/*.jpg"
+    - "docs/**/*.svg"
+    
+  # Exclude from build
+  exclude:
+    - "node_modules/**"
+    - ".git/**"
+    - "*.log"
+    - ".env*"
+    - "contracts/**/*.sol" # Exclude until ready
+
+# Environment variables
+env:
+  # Public environment variables
+  GITBOOK_PUBLIC_API_URL: "https://api.aibotiyi.com"
+  GITBOOK_PUBLIC_WEBSITE_URL: "https://aibotiyi.com"
+  GITBOOK_PUBLIC_LAUNCH_DATE: "Q3 2026"
+  
+# Webhook configuration for external integrations  
+webhooks:
+  # Discord notifications for documentation updates
+  discord:
+    url: "${DISCORD_WEBHOOK_URL}"
+    events:
+      - "page.created"
+      - "page.updated"
+      - "space.published"
+      
+  # Slack notifications
+  slack:
+    url: "${SLACK_WEBHOOK_URL}"
+    channel: "#documentation"
+    events:
+      - "space.published"
+
+# Access control and permissions
+permissions:
+  # Public read access
+  public: true
+  
+  # Editor permissions
+  editors:
+    - "team@aibotiyi.com"
+    - "docs@aibotiyi.com"
+    
+  # Admin permissions  
+  admins:
+    - "admin@aibotiyi.com"
