@@ -28,11 +28,19 @@ AIBOT IYI Protocol implements a comprehensive deflationary model through multipl
 | 93.0%+ | 1.5% | 18.0% annually |
 
 #### **Mechanism Details**:
-Calculation: Circulating Supply × Burn Rate × (Win Rate - 85%) / 5% Example: 50M supply × 0.5% × (87.3% - 85%) / 5% = 230,000 AIB burned Frequency: First day of each month Source Wallet: AI Trading Revenue Pool Burn Address: 0x000...dead (verified burn address)
+- **Calculation**: Circulating Supply × Burn Rate × (Win Rate - 85%) / 5%
+- **Example**: 50M supply × 0.5% × (87.3% - 85%) / 5% = 230,000 AIB burned
+- **Frequency**: First day of each month
+- **Source Wallet**: AI Trading Revenue Pool
+- **Burn Address**: 0x000...dead (verified burn address)
 
 
 #### **Historical Performance**:
-Month 1: 87.3% win rate → 230,000 AIB burned Month 2: 88.7% win rate → 370,000 AIB burned Month 3: 86.1% win rate → 110,000 AIB burned Month 4: 89.4% win rate → 440,000 AIB burned Average: 287,500 AIB burned per month
+- **Month 1**: 87.3% win rate → 230,000 AIB burned
+- **Month 2**: 88.7% win rate → 370,000 AIB burned
+- **Month 3**: 86.1% win rate → 110,000 AIB burned
+- **Month 4**: 89.4% win rate → 440,000 AIB burned
+- **Average**: 287,500 AIB burned per month
 
 
 ### **2. 📈 Trading Volume Burn**
@@ -50,7 +58,11 @@ Month 1: 87.3% win rate → 230,000 AIB burned Month 2: 88.7% win rate → 370,0
 | $50M+ | 0.10% | 50,000+ AIB |
 
 #### **Burn Calculation**:
-Formula: (Weekly Volume × Burn Rate) / Current AIB Price Example: ($10M × 0.05%) / $0.25 = 20,000 AIB burned Trigger: Every Sunday 00:00 UTC Source: Aggregated trading fees from all platforms Platforms: DEX trades, CEX integrations, P2P transfers
+- **Formula**: (Weekly Volume × Burn Rate) / Current AIB Price
+- **Example**: ($10M × 0.05%) / $0.25 = 20,000 AIB burned
+- **Trigger**: Every Sunday 00:00 UTC
+- **Source**: Aggregated trading fees from all platforms
+- **Platforms**: DEX trades, CEX integrations, P2P transfers
 
 
 #### **Platform Distribution**:
@@ -75,11 +87,20 @@ Formula: (Weekly Volume × Burn Rate) / Current AIB Price Example: ($10M × 0.05
 | **Total Daily** | **$950K** | **190 AIB** |
 
 #### **Mechanism Details**:
-Per-Transaction: 0.02% of bridge amount Minimum Burn: 1 AIB per transaction Maximum Burn: 10,000 AIB per transaction Burn Timing: Immediate upon bridge completion Smart Contract: Automated execution Multi-sig Override: Emergency pause capability
+- **Per-Transaction**: 0.02% of bridge amount
+- **Minimum Burn**: 1 AIB per transaction
+- **Maximum Burn**: 10,000 AIB per transaction
+- **Burn Timing**: Immediate upon bridge completion
+- **Smart Contract**: Automated execution
+- **Multi-sig Override**: Emergency pause capability
 
 
 #### **Bridge Statistics** (Monthly):
-Total Transactions: 15,000+ Total Volume: $28.5M Total Burns: 5,700 AIB Average per Transaction: 0.38 AIB Peak Daily Burns: 450 AIB
+- **Total Transactions**: 15,000+
+- **Total Volume**: $28.5M
+- **Total Burns**: 5,700 AIB
+- **Average per Transaction**: 0.38 AIB
+- **Peak Daily Burns**: 450 AIB
 
 
 ### **4. 🎮 Gaming Activity Burn**
@@ -98,7 +119,11 @@ Total Transactions: 15,000+ Total Volume: $28.5M Total Burns: 5,700 AIB Average 
 | **Yield Quest RPG** | $400K | 0.05% | 800 AIB |
 
 #### **Tournament Burn Mechanics**:
-Entry Fee Burns: 5% of all entry fees Prize Pool Burns: 2% of total prize pools House Edge Burns: 10% of platform profits NFT Upgrade Burns: 100% of upgrade fees Seasonal Events: 1% of total event revenue
+- **Entry Fee Burns**: 5% of all entry fees
+- **Prize Pool Burns**: 2% of total prize pools
+- **House Edge Burns**: 10% of platform profits
+- **NFT Upgrade Burns**: 100% of upgrade fees
+- **Seasonal Events**: 1% of total event revenue
 
 
 #### **Gaming Burn Distribution**:
@@ -124,12 +149,20 @@ Entry Fee Burns: 5% of all entry fees Prize Pool Burns: 2% of total prize pools 
 | **Marketplace Trade** | 2% of sale price | Per sale |
 
 #### **Upgrade Burn Tiers**:
-Level 1→2: 50 AIB Level 2→3: 100 AIB
-Level 3→4: 200 AIB Level 4→5: 500 AIB Level 5→6: 1,000 AIB Legendary: 2,000 AIB
+- **Level 1→2**: 50 AIB
+- **Level 2→3**: 100 AIB
+- **Level 3→4**: 200 AIB
+- **Level 4→5**: 500 AIB
+- **Level 5→6**: 1,000 AIB
+- **Legendary**: 2,000 AIB
 
 
 #### **NFT Burn Statistics**:
-Daily NFT Operations: 500+ Daily NFT Burns: 15,000 AIB Most Popular: Weapon upgrades (40%) Highest Value: Land purchases (35%) Monthly Total: 450,000 AIB burned
+- **Daily NFT Operations**: 500+
+- **Daily NFT Burns**: 15,000 AIB
+- **Most Popular**: Weapon upgrades (40%)
+- **Highest Value**: Land purchases (35%)
+- **Monthly Total**: 450,000 AIB burned
 
 
 ### **6. 🗳️ Governance Participation Burn**
@@ -147,11 +180,20 @@ Daily NFT Operations: 500+ Daily NFT Burns: 15,000 AIB Most Popular: Weapon upgr
 | **Delegate Selection** | 100 AIB | Serious participation |
 
 #### **Participation Incentives**:
-Vote Participation: Burn 0.001% but receive 0.002% from reward pool Proposal Success: 50% of submission burn returned Delegate Performance: Additional rewards for active delegates Community Engagement: Bonus multipliers for consistent participation
+- **Vote Participation**: Burn 0.001% but receive 0.002% from reward pool
+- **Proposal Success**: 50% of submission burn returned
+- **Delegate Performance**: Additional rewards for active delegates
+- **Community Engagement**: Bonus multipliers for consistent participation
 
 
 #### **Monthly Governance Burns**:
-Active Voters: 25,000 Average Holdings: 2,000 AIB Monthly Votes: 4 Burn per Voter: 0.32 AIB Total Monthly Burn: 8,000 AIB Proposal Burns: 15,000 AIB Combined: 23,000 AIB
+- **Active Voters**: 25,000
+- **Average Holdings**: 2,000 AIB
+- **Monthly Votes**: 4
+- **Burn per Voter**: 0.32 AIB
+- **Total Monthly Burn**: 8,000 AIB
+- **Proposal Burns**: 15,000 AIB
+- **Combined**: 23,000 AIB
 
 
 ### **7. 🚨 Emergency Protocol Burn**
@@ -169,11 +211,19 @@ Active Voters: 25,000 Average Holdings: 2,000 AIB Monthly Votes: 4 Burn per Vote
 | **Technology Failure** | 2% | Critical system failure | 3/5 multisig |
 
 #### **Emergency Burn Process**:
-Step 1: Emergency detection and assessment Step 2: Multisig or community approval Step 3: 24-hour announcement period Step 4: Burn execution with full transparency Step 5: Post-incident report and analysis
+1. **Step 1**: Emergency detection and assessment
+2. **Step 2**: Multisig or community approval
+3. **Step 3**: 24-hour announcement period
+4. **Step 4**: Burn execution with full transparency
+5. **Step 5**: Post-incident report and analysis
 
 
 #### **Historical Emergency Burns**:
-Events: 0 (No emergencies to date) Preparation: $2M emergency fund allocated Insurance: $10M protocol insurance coverage Response Team: 24/7 monitoring and response Recovery Plan: Comprehensive disaster recovery procedures
+- **Events**: 0 (No emergencies to date)
+- **Preparation**: $2M emergency fund allocated
+- **Insurance**: $10M protocol insurance coverage
+- **Response Team**: 24/7 monitoring and response
+- **Recovery Plan**: Comprehensive disaster recovery procedures
 
 
 ## 📊 **Cumulative Burn Projections**
@@ -181,34 +231,66 @@ Events: 0 (No emergencies to date) Preparation: $2M emergency fund allocated Ins
 ### **4-Year Burn Forecast**
 
 #### **Year 1 (2026)**:
-AI Performance Burns: 3.2M AIB (52%) Trading Volume Burns: 1.8M AIB (29%) Gaming Activity Burns: 0.8M AIB (13%) Cross-Chain Burns: 0.3M AIB (5%) NFT & Governance: 0.1M AIB (1%) Total Year 1: 6.2M AIB burned (6.2% of initial supply)
+- **AI Performance Burns**: 3.2M AIB (52%)
+- **Trading Volume Burns**: 1.8M AIB (29%)
+- **Gaming Activity Burns**: 0.8M AIB (13%)
+- **Cross-Chain Burns**: 0.3M AIB (5%)
+- **NFT & Governance**: 0.1M AIB (1%)
+- **Total Year 1**: 6.2M AIB burned (6.2% of initial supply)
 
 
 #### **Year 2 (2027)**:
-AI Performance Burns: 4.8M AIB (48%) Trading Volume Burns: 3.2M AIB (32%) Gaming Activity Burns: 1.4M AIB (14%) Cross-Chain Burns: 0.5M AIB (5%) NFT & Governance: 0.1M AIB (1%) Total Year 2: 10.0M AIB burned (10.0% of initial supply) Cumulative: 16.2M AIB burned (16.2% reduction)
+- **AI Performance Burns**: 4.8M AIB (48%)
+- **Trading Volume Burns**: 3.2M AIB (32%)
+- **Gaming Activity Burns**: 1.4M AIB (14%)
+- **Cross-Chain Burns**: 0.5M AIB (5%)
+- **NFT & Governance**: 0.1M AIB (1%)
+- **Total Year 2**: 10.0M AIB burned (10.0% of initial supply)
+- **Cumulative**: 16.2M AIB burned (16.2% reduction)
 
 
 #### **Year 3 (2028)**:
-AI Performance Burns: 6.4M AIB (45%) Trading Volume Burns: 5.2M AIB (37%) Gaming Activity Burns: 1.8M AIB (13%) Cross-Chain Burns: 0.6M AIB (4%) NFT & Governance: 0.1M AIB (1%) Total Year 3: 14.1M AIB burned (14.1% of initial supply) Cumulative: 30.3M AIB burned (30.3% reduction)
+- **AI Performance Burns**: 6.4M AIB (45%)
+- **Trading Volume Burns**: 5.2M AIB (37%)
+- **Gaming Activity Burns**: 1.8M AIB (13%)
+- **Cross-Chain Burns**: 0.6M AIB (4%)
+- **NFT & Governance**: 0.1M AIB (1%)
+- **Total Year 3**: 14.1M AIB burned (14.1% of initial supply)
+- **Cumulative**: 30.3M AIB burned (30.3% reduction)
 
 
 #### **Year 4 (2029)**:
-AI Performance Burns: 8.9M AIB (43%) Trading Volume Burns: 7.8M AIB (38%) Gaming Activity Burns: 2.4M AIB (12%) Cross-Chain Burns: 1.2M AIB (6%) NFT & Governance: 0.2M AIB (1%) Total Year 4: 20.5M AIB burned (20.5% of initial supply) Cumulative: 50.8M AIB burned (50.8% reduction)
+- **AI Performance Burns**: 8.9M AIB (43%)
+- **Trading Volume Burns**: 7.8M AIB (38%)
+- **Gaming Activity Burns**: 2.4M AIB (12%)
+- **Cross-Chain Burns**: 1.2M AIB (6%)
+- **NFT & Governance**: 0.2M AIB (1%)
+- **Total Year 4**: 20.5M AIB burned (20.5% of initial supply)
+- **Cumulative**: 50.8M AIB burned (50.8% reduction)
 
 
 ### **Long-Term Supply Dynamics**
 
 #### **Supply Reduction Timeline**:
-Launch (2026): 100M AIB total supply Year 1 End: 93.8M AIB remaining (-6.2%) Year 2 End: 83.8M AIB remaining (-16.2%) Year 3 End: 69.7M AIB remaining (-30.3%) Year 4 End: 49.2M AIB remaining (-50.8%) Year 5 End: 36.2M AIB remaining (-63.8%)
+- **Launch (2026)**: 100M AIB total supply
+- **Year 1 End**: 93.8M AIB remaining (-6.2%)
+- **Year 2 End**: 83.8M AIB remaining (-16.2%)
+- **Year 3 End**: 69.7M AIB remaining (-30.3%)
+- **Year 4 End**: 49.2M AIB remaining (-50.8%)
+- **Year 5 End**: 36.2M AIB remaining (-63.8%)
 
-Final Stabilized Supply: ~30M AIB (-70% reduction)
+**Final Stabilized Supply**: ~30M AIB (-70% reduction)
 
 
 #### **Price Impact Modeling**:
-Assuming constant demand: Year 1: +6.6% price pressure from burns Year 2: +19.4% cumulative price pressure Year 3: +43.5% cumulative price pressure
-Year 4: +103.3% cumulative price pressure Year 5: +233.3% cumulative price pressure
+Assuming constant demand:
+- **Year 1**: +6.6% price pressure from burns
+- **Year 2**: +19.4% cumulative price pressure
+- **Year 3**: +43.5% cumulative price pressure
+- **Year 4**: +103.3% cumulative price pressure
+- **Year 5**: +233.3% cumulative price pressure
 
-Note: Does not account for demand growth or market factors
+**Note**: Does not account for demand growth or market factors
 
 
 ## 🛡️ **Burn Safeguards & Controls**

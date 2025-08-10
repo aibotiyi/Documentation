@@ -51,7 +51,10 @@
   - Knowledge sharing incentives
 
 #### **Release Schedule**:
-Month 1-12: 2.92M AIB per month (8.33%) Month 13-24: 2.92M AIB per month (8.33%) Month 25-36: 2.92M AIB per month (8.33%) Total Release: 36 months linear
+- **Month 1-12**: 2.92M AIB per month (8.33%)
+- **Month 13-24**: 2.92M AIB per month (8.33%)
+- **Month 25-36**: 2.92M AIB per month (8.33%)
+- **Total Release**: 36 months linear
 
 
 ### **💧 Liquidity Provision (15% - 15M AIB)**
@@ -96,7 +99,11 @@ Month 1-12: 2.92M AIB per month (8.33%) Month 13-24: 2.92M AIB per month (8.33%)
 - **Industry Experts**: 0.5M AIB (12.5%)
 
 #### **Vesting Details**:
-Cliff Period: 12 months (No tokens released) Vesting Start: Month 13 Vesting Duration: 36 months linear Monthly Release: 333,333 AIB (2.78%) Vesting End: Month 48
+- **Cliff Period**: 12 months (No tokens released)
+- **Vesting Start**: Month 13
+- **Vesting Duration**: 36 months linear
+- **Monthly Release**: 333,333 AIB (2.78%)
+- **Vesting End**: Month 48
 
 
 #### **Performance Milestones**:
@@ -134,7 +141,10 @@ Cliff Period: 12 months (No tokens released) Vesting Start: Month 13 Vesting Dur
   - Testing and quality assurance
 
 #### **Release Schedule**:
-Month 1-6: 625K AIB per month (6.25%) Month 7-12: 625K AIB per month (6.25%) Month 13-18: 625K AIB per month (6.25%) Month 19-24: 625K AIB per month (6.25%)
+- **Month 1-6**: 625K AIB per month (6.25%)
+- **Month 7-12**: 625K AIB per month (6.25%)
+- **Month 13-18**: 625K AIB per month (6.25%)
+- **Month 19-24**: 625K AIB per month (6.25%)
 
 
 ### **📢 Marketing & Partnerships (8% - 8M AIB)**
@@ -167,7 +177,9 @@ Month 1-6: 625K AIB per month (6.25%) Month 7-12: 625K AIB per month (6.25%) Mon
   - Crisis management
 
 #### **Release Schedule**:
-Month 1-6: 667K AIB per month (8.33%) Month 7-12: 667K AIB per month (8.33%) Month 13-18: 667K AIB per month (8.33%)
+- **Month 1-6**: 667K AIB per month (8.33%)
+- **Month 7-12**: 667K AIB per month (8.33%)
+- **Month 13-18**: 667K AIB per month (8.33%)
 
 
 ### **💰 Private Sale (6% - 6M AIB)**
@@ -201,7 +213,10 @@ Month 1-6: 667K AIB per month (8.33%) Month 7-12: 667K AIB per month (8.33%) Mon
   - Educational platform partners
 
 #### **Vesting Terms**:
-Cliff Period: 3 months Vesting Duration: 9 months linear Monthly Release: 666,667 AIB (11.11%) Total Vesting Period: 12 months
+- **Cliff Period**: 3 months
+- **Vesting Duration**: 9 months linear
+- **Monthly Release**: 666,667 AIB (11.11%)
+- **Total Vesting Period**: 12 months
 
 
 ### **🚀 Public Sale (5% - 5M AIB)**
@@ -264,7 +279,9 @@ Cliff Period: 3 months Vesting Duration: 9 months linear Monthly Release: 666,66
 - **365-Day Pool**: 0.5M AIB (16.7%) - 96% APY
 
 #### **Release Schedule**:
-Month 1-12: 125K AIB per month (4.17%) Month 13-24: 125K AIB per month (4.17%) Total Distribution: 24 months
+- **Month 1-12**: 125K AIB per month (4.17%)
+- **Month 13-24**: 125K AIB per month (4.17%)
+- **Total Distribution**: 24 months
 
 
 #### **Staking Mechanics**:
@@ -290,40 +307,56 @@ Month 1-12: 125K AIB per month (4.17%) Month 13-24: 125K AIB per month (4.17%) T
 - **Investment Strategy**: Conservative DeFi protocols
 
 #### **Release Schedule**:
-Month 1-12: 55,556 AIB per month (2.78%) Month 13-24: 55,556 AIB per month (2.78%) Month 25-36: 55,556 AIB per month (2.78%)
+- **Month 1-12**: 55,556 AIB per month (2.78%)
+- **Month 13-24**: 55,556 AIB per month (2.78%)
+- **Month 25-36**: 55,556 AIB per month (2.78%)
 
 
 ## 📅 **Token Release Timeline**
 
 ### **Launch Day (Month 0)**
-Immediate Release: 20M AIB (20%)
-
-Liquidity Provision: 15M AIB
-Public Sale: 5M AIB Circulating Supply: 20M AIB
+**Immediate Release**: 20M AIB (20%)
+- **Liquidity Provision**: 15M AIB
+- **Public Sale**: 5M AIB
+- **Circulating Supply**: 20M AIB
 
 ### **Month 3**
-Private Sale Cliff Ends: +667K AIB/month Cumulative Released: 22M AIB Circulating Supply: 22M AIB
+**Private Sale Cliff Ends**: +667K AIB/month
+- **Cumulative Released**: 22M AIB
+- **Circulating Supply**: 22M AIB
 
 
 ### **Month 12**
-Team Cliff Ends: +333K AIB/month Cumulative Released: 40M AIB Circulating Supply: 40M AIB
+**Team Cliff Ends**: +333K AIB/month
+- **Cumulative Released**: 40M AIB
+- **Circulating Supply**: 40M AIB
 
 
 ### **Month 18**
-Peak Unlock Period Monthly Release: ~3.2M AIB Cumulative Released: 55M AIB Circulating Supply: 55M AIB
+**Peak Unlock Period**
+- **Monthly Release**: ~3.2M AIB
+- **Cumulative Released**: 55M AIB
+- **Circulating Supply**: 55M AIB
 
 
 ### **Month 36**
-Most Vesting Complete Cumulative Released: 90M AIB Reserve Fund: 4M AIB (locked) Final Circulating: 96M AIB
+**Most Vesting Complete**
+- **Cumulative Released**: 90M AIB
+- **Reserve Fund**: 4M AIB (locked)
+- **Final Circulating**: 96M AIB
 
 
 ## 🔥 **Deflationary Mechanisms**
 
 ### **Burn Schedule Impact**
-Year 1: -8.2M AIB burned (8.2% reduction) Year 2: -12.7M AIB burned (12.7% reduction)
-Year 3: -18.9M AIB burned (18.9% reduction) Year 4: -24.0M AIB burned (24.0% reduction)
+- **Year 1**: -8.2M AIB burned (8.2% reduction)
+- **Year 2**: -12.7M AIB burned (12.7% reduction)
+- **Year 3**: -18.9M AIB burned (18.9% reduction)
+- **Year 4**: -24.0M AIB burned (24.0% reduction)
 
-Total 4-Year Burn: 63.8M AIB (63.8% supply reduction) Final Circulating Supply: ~32M AIB (68% deflation)
+**Summary:**
+- **Total 4-Year Burn**: 63.8M AIB (63.8% supply reduction)
+- **Final Circulating Supply**: ~32M AIB (68% deflation)
 
 
 ### **Burn Mechanism Breakdown**

@@ -108,27 +108,27 @@ Fast-paced prediction game where players forecast cryptocurrency price movements
 #### **📱 Game Modes**
 
 **Lightning Round** (1-5 minutes):
-Prediction Window: 1, 3, 5 minute intervals 
-Assets: Major cryptocurrencies (BTC, ETH, BNB, SOL) 
-Bet Amounts: 10-1,000 AIB tokens 
-Multipliers: 1.5x - 3.0x based on confidence AI
-Confidence: Real-time algorithm reliability scores
+- Prediction Window: 1, 3, 5 minute intervals 
+- Assets: Major cryptocurrencies (BTC, ETH, BNB, SOL) 
+- Bet Amounts: 10-1,000 AIB tokens 
+- Multipliers: 1.5x - 3.0x based on confidence AI
+- Confidence: Real-time algorithm reliability scores
 
 
-**Hourly Challenges** (1 hour):
-Prediction Types: Price direction, volatility, range 
-Multiple Assets: Up to 5 simultaneous predictions 
-Strategy Building: Complex prediction combinations 
-Community Predictions: See what others are forecasting 
-Bonus Rounds: Special events and announcements
+##### Hourly Challenges (1 hour)
+- Prediction Types: Price direction, volatility, range 
+- Multiple Assets: Up to 5 simultaneous predictions 
+- Strategy Building: Complex prediction combinations 
+- Community Predictions: See what others are forecasting 
+- Bonus Rounds: Special events and announcements
 
 
-**Daily Marathons** (24 hours):
-Continuous Play: Multiple prediction opportunities 
-Streak Bonuses: Consecutive correct predictions reward multipliers 
-Leaderboard: Real-time ranking of all participants 
-Special Events: Major news events and earnings announcements 
-Grand Prizes: Significant rewards for top performers
+##### Daily Marathons (24 hours)
+- Continuous Play: Multiple prediction opportunities 
+- Streak Bonuses: Consecutive correct predictions reward multipliers 
+- Leaderboard: Real-time ranking of all participants 
+- Special Events: Major news events and earnings announcements 
+- Grand Prizes: Significant rewards for top performers
 
 
 #### **🧠 AI Prediction Tools**
@@ -173,47 +173,54 @@ Strategic empire-building game where players construct and manage virtual DeFi p
 
 #### **🏗️ Core Building Mechanics**
 
-**Protocol Construction**:
+##### Protocol Construction
+
 Building Types:
-├── Liquidity Pools: Generate trading fee income
-├── Lending Platforms: Earn interest from borrowers 
-├── Yield Farms: Stake tokens for farming rewards 
-├── NFT Marketplaces: Commission from NFT trades 
-├── Governance Halls: Voting power and proposal fees 
-└── Oracle Networks: Data provision service income
+- Liquidity Pools: Generate trading fee income
+- Lending Platforms: Earn interest from borrowers 
+- Yield Farms: Stake tokens for farming rewards 
+- NFT Marketplaces: Commission from NFT trades 
+- Governance Halls: Voting power and proposal fees 
+- Oracle Networks: Data provision service income
 
+##### Resource Management
 
-**Resource Management**:
 Primary Resources: 
-├── AIB Tokens: Main construction and upgrade currency 
-├── Virtual Land: Limited plots for building construction 
-├── Energy Points: Required for all operations and activities 
-├── Reputation: Unlocks advanced buildings and features 
-├── Knowledge: Gained through successful operations 
-└── Alliance Power: Shared resources with guild members
+- AIB Tokens: Main construction and upgrade currency 
+- Virtual Land: Limited plots for building construction 
+- Energy Points: Required for all operations and activities 
+- Reputation: Unlocks advanced buildings and features 
+- Knowledge: Gained through successful operations 
+- Alliance Power: Shared resources with guild members
 
 
 #### **🌟 Empire Development System**
 
-**Building Upgrade Paths**:
-Level 1 → 2: 1,000 AIB + 24 hours Level 2 → 3: 2,500 AIB + 48 hours Level 3 → 4: 5,000 AIB + 72 hours
-Level 4 → 5: 10,000 AIB + 5 days Level 5 → Max: 25,000 AIB + 7 days
+##### Building Upgrade Paths
+| Level | Cost | Time Required |
+|-------|------|---------------|
+| 1 → 2 | 1,000 AIB | 24 hours |
+| 2 → 3 | 2,500 AIB | 48 hours |
+| 3 → 4 | 5,000 AIB | 72 hours |
+| 4 → 5 | 10,000 AIB | 5 days |
+| 5 → Max | 25,000 AIB | 7 days |
 
-Max Level Benefits: 
-├── 5x income generation 
-├── Special abilities unlock 
-├── Legendary building appearance 
-├── Empire-wide bonuses 
-└── Alliance leadership capabilities
+##### Max Level Benefits
+- 5x income generation 
+- Special abilities unlock 
+- Legendary building appearance 
+- Empire-wide bonuses 
+- Alliance leadership capabilities
 
+##### Territory Expansion
+Starting Territory: 3x3 grid (9 plots)
 
-**Territory Expansion**:
-Starting Territory: 3x3 grid (9 plots) Expansion Costs: 
-├── 4x4 Grid: 5,000 AIB 
-├── 5x5 Grid: 15,000 AIB
-├── 6x6 Grid: 35,000 AIB 
-├── 7x7 Grid: 75,000 AIB 
-└── 8x8 Grid: 150,000 AIB (Maximum)
+Expansion Costs: 
+- 4x4 Grid: 5,000 AIB 
+- 5x5 Grid: 15,000 AIB
+- 6x6 Grid: 35,000 AIB 
+- 7x7 Grid: 75,000 AIB 
+- 8x8 Grid: 150,000 AIB (Maximum)
 
 
 #### **⚔️ PvP & Guild System**
@@ -275,15 +282,15 @@ Epic (4%): Specialized market condition performance
 Legendary (1%): Unique abilities, exceptional performance
 
 
-**Bot Personality Types**:
-├── Aggressive: High-risk, high-reward strategies 
-├── Conservative: Capital preservation focus 
-├── Scalper: High-frequency micro-profit strategies
-├── Swing Trader: Medium-term position strategies 
-├── Arbitrageur: Cross-market opportunity exploitation 
-├── News Trader: Event-driven decision making 
-├── Technical Analyst: Chart pattern specialization 
-└── Fundamentalist: Economic data interpretation
+##### Bot Personality Types
+- Aggressive: High-risk, high-reward strategies 
+- Conservative: Capital preservation focus 
+- Scalper: High-frequency micro-profit strategies
+- Swing Trader: Medium-term position strategies 
+- Arbitrageur: Cross-market opportunity exploitation 
+- News Trader: Event-driven decision making 
+- Technical Analyst: Chart pattern specialization 
+- Fundamentalist: Economic data interpretation
 
 
 #### **⚡ Battle Mechanics**
@@ -295,16 +302,16 @@ Victory Conditions: Highest ROI, lowest drawdown, or combination
 Special Abilities: Unique bot powers with cooldown periods
 
 
-**Bot Abilities**:
+##### Bot Abilities
 Ultimate Abilities (once per battle): 
-├── Market Crash Protection: Immune to major drops 
-├── Pump Detection: 2x profit during price spikes
-├── News Flash: Instant reaction to breaking news 
-├── Whale Mimicry: Copy large investor movements 
-├── Technical Breakout: Enhanced pattern recognition 
-├── Risk Shield: Temporary loss protection 
-├── Profit Lock: Secure gains against reversals 
-└── Market Maker: Generate liquidity bonuses
+- Market Crash Protection: Immune to major drops 
+- Pump Detection: 2x profit during price spikes
+- News Flash: Instant reaction to breaking news 
+- Whale Mimicry: Copy large investor movements 
+- Technical Breakout: Enhanced pattern recognition 
+- Risk Shield: Temporary loss protection 
+- Profit Lock: Secure gains against reversals 
+- Market Maker: Generate liquidity bonuses
 
 
 #### **🏆 Tournament & League System**
@@ -334,14 +341,14 @@ Adventure RPG where completing quests generates real yields through DeFi protoco
 
 #### **🗡️ Character & Progression System**
 
-**Character Classes**:
-├── Yield Farmer: Specializes in farming and staking rewards 
-├── Liquidity Provider: Masters pool management and fees 
-├── NFT Hunter: Excels at finding and trading valuable NFTs 
-├── Arbitrage Scout: Discovers price differences across markets 
-├── DeFi Wizard: Advanced protocol interaction and optimization 
-├── Governance Paladin: Focuses on voting and dao participation 
-└── Market Oracle: Information gathering and prediction expertise
+##### Character Classes
+- Yield Farmer: Specializes in farming and staking rewards 
+- Liquidity Provider: Masters pool management and fees 
+- NFT Hunter: Excels at finding and trading valuable NFTs 
+- Arbitrage Scout: Discovers price differences across markets 
+- DeFi Wizard: Advanced protocol interaction and optimization 
+- Governance Paladin: Focuses on voting and dao participation 
+- Market Oracle: Information gathering and prediction expertise
 
 
 **Character Development**:
@@ -355,27 +362,28 @@ Talents: Unique abilities unlocked through gameplay
 
 #### **🗺️ Quest & Adventure System**
 
-**Quest Categories**:
+##### Quest Categories
+
 Daily Quests (24-hour completion): 
-├── Stake 100 AIB tokens → Earn 5 AIB + XP 
-├── Make 3 successful trades → Earn equipment 
-├── Participate in governance vote → Earn reputation 
-├── Help guild member → Earn alliance tokens 
-└── Complete educational module → Earn knowledge points
+- Stake 100 AIB tokens → Earn 5 AIB + XP 
+- Make 3 successful trades → Earn equipment 
+- Participate in governance vote → Earn reputation 
+- Help guild member → Earn alliance tokens 
+- Complete educational module → Earn knowledge points
 
 Weekly Quests (7-day completion): 
-├── Achieve 10% portfolio growth → Earn rare NFT 
-├── Maintain 95% quest completion → Earn title 
-├── Discover new DeFi protocol → Earn explorer badge 
-├── Lead successful guild raid → Earn leadership XP 
-└── Optimize yield strategy → Earn strategy blueprint
+- Achieve 10% portfolio growth → Earn rare NFT 
+- Maintain 95% quest completion → Earn title 
+- Discover new DeFi protocol → Earn explorer badge 
+- Lead successful guild raid → Earn leadership XP 
+- Optimize yield strategy → Earn strategy blueprint
 
 Monthly Quests (30-day completion): 
-├── Build 1M AIB portfolio value → Earn legendary weapon 
-├── Achieve top 10% leaderboard → Earn hall of fame status 
-├── Successfully mentor 5 players → Earn teacher certificate
-├── Complete major story arc → Earn story NFT collection 
-└── Unlock new territory → Earn land ownership NFT
+- Build 1M AIB portfolio value → Earn legendary weapon 
+- Achieve top 10% leaderboard → Earn hall of fame status 
+- Successfully mentor 5 players → Earn teacher certificate
+- Complete major story arc → Earn story NFT collection 
+- Unlock new territory → Earn land ownership NFT
 
 
 **Story Campaign**:
