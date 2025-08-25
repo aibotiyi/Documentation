@@ -1,12 +1,12 @@
 # Overview
 
-![AIBOT IYI Protocol](assets/logos/aibot-logo.png)
+![AIBOT IYI Protocol](https://aibotiyi.com/footer-logo.png)
 
 ## AIBOT IYI PROTOCOL
 
 #### "Intelligent Yield Investment"
 
-[![GitHub Stars](https://img.shields.io/github/stars/your-username/AIBOT-IYI-PROTOCOL.svg)](https://github.com/your-username/AIBOT-IYI-PROTOCOL/stargazers) [![GitHub Forks](https://img.shields.io/github/forks/your-username/AIBOT-IYI-PROTOCOL.svg)](https://github.com/your-username/AIBOT-IYI-PROTOCOL/network/members) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![GitBook](https://img.shields.io/badge/GitBook-Documentation-blue)](https://aibotiyi.gitbook.io/aibot-iyi)
+[![GitHub Stars](https://img.shields.io/github/stars/aibotiyi/AIBOT-IYI-PROTOCOL.svg)](https://github.com/aibotiyi/AIBOT-IYI-PROTOCOL/stargazers) [![GitHub Forks](https://img.shields.io/github/forks/aibotiyi/AIBOT-IYI-PROTOCOL.svg)](https://github.com/aibotiyi/AIBOT-IYI-PROTOCOL/network/members) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![GitBook](https://img.shields.io/badge/GitBook-Documentation-blue)](https://docs.aibotiyi.com/)
 
 ***
 
@@ -39,7 +39,7 @@ AIBOT IYI Protocol is a revolutionary AI-DeFi platform that democratizes intelli
 
 ### 📚 **Documentation**
 
-Visit our comprehensive documentation on [GitBook](https://aibotiyi.gitbook.io/aibot-iyi) for detailed information about:
+Visit our comprehensive documentation on [GitBook](https://docs.aibotiyi.com/) for detailed information about:
 
 * [Introduction & Mission](docs/introduction/)
 * [Tokenomics & Economics](docs/tokenomics/)
@@ -76,4 +76,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE/) fil
 
 **Built with ❤️ by the AIBOT IYI Team**
 
-[Website](https://aibotiyi.com) • [Documentation](https://aibotiyi.gitbook.io/aibot-iyi) • [Community](https://t.me/aibotiyi)
+[Website](https://aibotiyi.com) • [Documentation](https://docs.aibotiyi.com/) • [Community](https://t.me/aibotiyi)
